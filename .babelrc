@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "modules": false,
+        "useBuiltIns": "usage"
+      }
+    ],
+    "@babel/preset-typescript",
+    "@babel/react"
+  ],
+  "plugins": [
+    ["import", {
+      "libraryName": "antd",
+      "style": true   // or 'css'
+    }]
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "ali-oss-react",
+  "version": "1.0.0",
+  "description": "React componet for ali-oss",
+  "main": "rollup.config.js",
+  "scripts": {
+    "dev": "styleguidist server",
+    "start": "npm run dev",
+    "doc": "styleguidist build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:unpkg & npm run build:es & npm run build:umd & npm run doc",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/ali-oss-react.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/ali-oss-react.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/ali-oss-react.min.js"
+  },
+  "keywords": [
+    "react",
+    "ali-oss"
+  ],
+  "author": "seiwhale",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-import": "^1.12.2",
+    "babel-preset-latest": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "less": "^3.10.3",
+    "minimist": "^1.2.0",
+    "react-docgen-typescript": "^1.15.1",
+    "react-dom": "^16.11.0",
+    "react-styleguidist": "^10.2.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.2.1",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.7.2",
+    "@types/react": "^16.9.11",
+    "antd": "^3.25.2",
+    "core-js": "2",
+    "react": "^16.11.0"
+  }
+}
