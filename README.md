@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to ali-oss-react 👋</h1>
 
-[![NPM Download](https://badgen.net/npm/dm/@crv/ali-oss-react)](https://www.npmjs.com/package/@crv/ali-oss-react)
-[![NPM Version](https://badgen.net/npm/v/@crv/ali-oss-react)](https://www.npmjs.com/package/@crv/ali-oss-react)
+[![NPM Download](https://badgen.net/npm/dm/@crv/ali-oss-react)](https://www.npmjs.com/package/ali-oss-react)
+[![NPM Version](https://badgen.net/npm/v/@crv/ali-oss-react)](https://www.npmjs.com/package/ali-oss-react)
 [![NPM License](https://badgen.net/npm/license/@crv/ali-oss-react)](https://github.com/seiwhale/ali-oss-react/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/seiwhale/ali-oss-react/pulls)
 
