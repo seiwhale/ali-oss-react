@@ -23,7 +23,6 @@ const config = {
           javascriptEnabled: true
         }]
       ],
-      inject: isDev, // dev 环境下的 样式是入住到 js 中的，其他环境不会注入
       extract: false // 无论是 dev 还是其他环境这个配置项都不做 样式的抽离
     }),
     babel({

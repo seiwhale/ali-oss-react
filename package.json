@@ -2,22 +2,28 @@
   "name": "ali-oss-react",
   "version": "1.0.0",
   "description": "React componet for ali-oss",
-  "main": "rollup.config.js",
+  "author": "https://github.com/seiwhale",
   "scripts": {
     "dev": "styleguidist server",
     "start": "npm run dev",
     "doc": "styleguidist build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build:unpkg & npm run build:es & npm run build:umd & npm run doc",
-    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/ali-oss-react.umd.js",
-    "build:es": "rollup --config build/rollup.config.js --format es --file dist/ali-oss-react.esm.js",
-    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/ali-oss-react.min.js"
+    "build:umd": "rollup --config rollup.config.js --format umd --file dist/ali-oss-react.umd.js",
+    "build:es": "rollup --config rollup.config.js --format es --file dist/ali-oss-react.esm.js",
+    "build:unpkg": "rollup --config rollup.config.js --format iife --file dist/ali-oss-react.min.js"
   },
   "keywords": [
     "react",
     "ali-oss"
   ],
-  "author": "seiwhale",
+  "main": "dist/ali-oss-react.umd.js",
+  "module": "dist/ali-oss-react.esm.js",
+  "unpkg": "dist/ali-oss-react.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seiwhale/ali-oss-react.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.7.2",
@@ -26,6 +32,7 @@
     "babel-loader": "^8.0.6",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-import": "^1.12.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-latest": "^6.24.1",
     "css-loader": "^3.2.0",
     "less": "^3.10.3",
@@ -46,6 +53,7 @@
   "dependencies": {
     "@babel/preset-typescript": "^7.7.2",
     "@types/react": "^16.9.11",
+    "ali-oss": "^6.2.1",
     "antd": "^3.25.2",
     "core-js": "2",
     "react": "^16.11.0"
