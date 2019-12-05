@@ -19,13 +19,13 @@ script:
 cache: yarn
 deploy:
 - provider: pages
-  local-dir: styleguide
-  github-token: $GITHUB_TOKEN
-  skip-cleanup: true
-  keep-history: true
+  local_dir: styleguide
+  token: $GITHUB_TOKEN
+  cleanup: true
+  keep_history: true
   on:
     branch: master
 - provider: npm
-  email: lishijie519@dingtalk.com
-  api_key: $NPM_TOKEN
-  skip-cleanup: true
+  email: $EMAIL
+  api_token: $NPM_TOKEN
+  cleanup: true
