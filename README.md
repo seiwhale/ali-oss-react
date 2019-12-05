@@ -24,7 +24,7 @@ yarn install ali-oss-react
 | accessKeySecret	| string	| true| Your accessKeySecret| 
 | bucket	| string	| true | Your bucket name| 
 | region	| string	| true	| oss region| 
-| beforeUpload	| (file: RcFile, FileList: RcFile[]) => boolean \| PromiseLike<void>	| false	| | beforeUpload callback| 
+| beforeUpload	| (file: RcFile, FileList: RcFile[]) => boolean \| PromiseLike<void>	| false	| beforeUpload callback| 
 | name	| string| false	| file name| 
 | onError	| (err: Error) => void| false	| onError callback| 
 | onSuccess	| (res: any, file: any) => void| false | onSuccess callback| 

@@ -1,6 +1,6 @@
 {
   "name": "ali-oss-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React componet for ali-oss",
   "author": "https://github.com/seiwhale",
   "scripts": {
@@ -35,6 +35,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-latest": "^6.24.1",
     "css-loader": "^3.2.0",
+    "gh-pages": "^2.1.1",
     "less": "^3.10.3",
     "minimist": "^1.2.0",
     "react-docgen-typescript": "^1.15.1",

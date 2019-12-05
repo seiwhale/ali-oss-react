@@ -1,0 +1,30 @@
+branches:
+  only:
+  - master
+language: node_js
+node_js:
+- lts/*
+git:
+  depth: 3
+before_install:
+- yarn --frozen-lockfile
+- yarn test
+install:
+- yarn install
+before_script:
+- yarn doc
+script:
+- yarn build
+cache: yarn
+deploy:
+- provider: pages
+  local-dir: styleguide
+  github-token: $GITHUB_TOKEN
+  skip-cleanup: true
+  keep-history: true
+  on:
+    branch: master
+- provider: npm
+  email: lishijie519@dingtalk.com
+  api_key: $NPM_TOKEN
+  skip-cleanup: true
