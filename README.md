@@ -1,5 +1,6 @@
 <h1 align="center">Welcome to ali-oss-react 👋</h1>
 
+[![Build Status](https://travis-ci.org/seiwhale/ali-oss-react.svg?branch=master)](https://travis-ci.org/seiwhale/ali-oss-react)
 [![NPM Download](https://badgen.net/npm/dm/@crv/ali-oss-react)](https://www.npmjs.com/package/ali-oss-react)
 [![NPM Version](https://badgen.net/npm/v/@crv/ali-oss-react)](https://www.npmjs.com/package/ali-oss-react)
 [![NPM License](https://badgen.net/npm/license/@crv/ali-oss-react)](https://github.com/seiwhale/ali-oss-react/blob/master/LICENSE)
