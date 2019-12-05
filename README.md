@@ -1,9 +1,9 @@
 <h1 align="center">Welcome to ali-oss-react 👋</h1>
 
 [![Build Status](https://travis-ci.org/seiwhale/ali-oss-react.svg?branch=master)](https://travis-ci.org/seiwhale/ali-oss-react)
-[![NPM Download](https://badgen.net/npm/dm/@crv/ali-oss-react)](https://www.npmjs.com/package/ali-oss-react)
-[![NPM Version](https://badgen.net/npm/v/@crv/ali-oss-react)](https://www.npmjs.com/package/ali-oss-react)
-[![NPM License](https://badgen.net/npm/license/@crv/ali-oss-react)](https://github.com/seiwhale/ali-oss-react/blob/master/LICENSE)
+[![NPM Download](https://badgen.net/npm/dm/ali-oss-react)](https://www.npmjs.com/package/ali-oss-react)
+[![NPM Version](https://badgen.net/npm/v/ali-oss-react)](https://www.npmjs.com/package/ali-oss-react)
+[![NPM License](https://badgen.net/npm/license/ali-oss-react)](https://github.com/seiwhale/ali-oss-react/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/seiwhale/ali-oss-react/pulls)
 
 React componet for ali-oss 📦

@@ -11,6 +11,7 @@ before_install:
 - yarn test
 install:
 - yarn install
+- yarn global add rollup
 before_script:
 - yarn doc
 script:
