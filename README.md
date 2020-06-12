@@ -48,7 +48,7 @@ import AliOssReact from "./index.tsx";
 
 👤 **seiwhale**
 
-* Website: https://lisj.ml/
+* Website: https://seiwhale.github.com/
 * Github: [@seiwhale](https://github.com/seiwhale)
 
 ## Show your support
